@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        registry = "parsisamyuktha/staging"
+        registry = "parsisamyuktha/pwc-project"
         registryCredential = 'dockerhub'
         dockerImage = ''
     }
